@@ -29,6 +29,9 @@ function EditDoctor() {
               <input type="text"></input>
             </div>
           </div>
+          <div className="img-7">
+          <img id="img" src={Profile} alt="profile"/>
+          </div>
         </div>
         <div className="bottomForm">
           <div className="part1">
