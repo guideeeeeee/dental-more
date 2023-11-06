@@ -4,6 +4,11 @@
     background-color: #769FCD;
     border: 0;
     color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.login{
+    display: flex;
 }
 .wholepage{
     display: flex;
@@ -13,6 +18,7 @@
     background-image:url('E:\Dental appointment\dental-more\src\assets\introPage.svg');
     width: 100vw;
     height: 100vh;
+    
 }
 .page{
     margin-top: 10%;

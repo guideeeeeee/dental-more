@@ -1,6 +1,10 @@
 import "./EditDoctor.css";
 import Profile from "./component/profile.svg";
+import { useState } from "react";
 function EditDoctor() {
+  function handleImageClick() {
+  console.log("Image clicked");
+}
   return (
     <>
       <div className="wpage">
@@ -30,7 +34,7 @@ function EditDoctor() {
             </div>
           </div>
           <div className="img-7">
-          <img id="img" src={Profile} alt="profile"/>
+          <img id="img" src={Profile} alt="profile" onClick={handleImageClick}/>
           </div>
         </div>
         <div className="bottomForm">
